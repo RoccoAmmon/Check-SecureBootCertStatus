@@ -10,10 +10,10 @@
 
 ## 📑 Inhaltsverzeichnis
 
-- [Features](#-features)
+- [Features](#-features-1)
 - [Systemanforderungen](#-systemanforderungen)
 - [Installation](#-installation)
-- [Verwendung](#-verwendung)
+- [Verwendung](#️-verwendung)
 - [Report-Ausgabe](#-report-ausgabe)
 - [Änderungshistorie](#-änderungshistorie)
 - [License](#-license)
@@ -45,9 +45,8 @@
 
 ```powershell
 # Repository klonen
-# (Beispiel)
-git clone https://github.com/<DEIN-USERNAME>/SecureBoot-Check.git
-cd SecureBoot-Check
+git clone https://github.com/RoccoAmmon/Check-SecureBootCertStatus.git
+cd Check-SecureBootCertStatus
 ```
 
 ## ▶️ Verwendung
@@ -70,7 +69,7 @@ cd SecureBoot-Check
 
 - **CSV-Report:** Übersicht aller geprüften Systeme und deren Secure Boot Status
 - **HTML-Report:** Lesbarer Bericht für Management und IT
-- **Log-Dateien:** Detaillierte Ablauf- und Fehlerprotokolle im Log-Verzeichnis (Standard: `C:\ExchangeMigrationLog`)
+- **Log-Dateien:** Detaillierte Ablauf- und Fehlerprotokolle im Log-Verzeichnis (Standard: `C:\ScriptLog`)
 
 ## 📝 Änderungshistorie
 
@@ -79,12 +78,12 @@ cd SecureBoot-Check
 - **v2.2:** Bugfixes Registry-Pfad und Datentyp
 - **v2.3:** Dreistufige Erkennung, Fallback-Prüfung, Bitmask-Analyse
 
-## � Contributors
+## 👥 Contributors
 
 - [@RoccoAmmon](https://github.com/RoccoAmmon)
 - [Claude](https://claude.ai) (AI Assistant by Anthropic)
 
-## �📄 License
+## 📄 License
 
 MIT
 
