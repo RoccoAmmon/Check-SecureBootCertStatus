@@ -34,7 +34,7 @@
 
 ## 💻 Systemanforderungen
 
-- **Windows Server 2016** oder neuer
+- **Windows Server 2016**, Windows 11 oder neuer
 - **PowerShell 5.1+**
 - **RSAT / AD-Tools** installiert (ActiveDirectory-Modul)
 - **Domain Admin**-Rechte empfohlen
