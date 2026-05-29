@@ -25,7 +25,7 @@
     - Erstellt CSV-, HTML-Report und Log-Datei
 
 .NOTES
-    Autor:          R_Super Entwickler CS4e
+    Autor:          Rocco Ammon
     Datum:          27.03.2026
     Version:        2.3
     Voraussetzung:  - Administratorrechte (wird automatisch geprueft)
@@ -77,7 +77,7 @@ param(
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 # --- Pfad- und Datei-Variablen ---
-[string]$LogVerzeichnis               = "C:\ExchangeMigrationLog"
+[string]$LogVerzeichnis               = "C:\ScriptLog"
 [string]$Zeitstempel                   = Get-Date -Format "yyyyMMdd_HHmmss"
 [string]$LogDateiPfad                  = Join-Path -Path $LogVerzeichnis -ChildPath "SecureBoot_Zertifikatspruefung_$Zeitstempel.log"
 [string]$CsvExportPfad                 = Join-Path -Path $LogVerzeichnis -ChildPath "SecureBoot_Zertifikatsstatus_$Zeitstempel.csv"
