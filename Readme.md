@@ -79,7 +79,12 @@ cd SecureBoot-Check
 - **v2.2:** Bugfixes Registry-Pfad und Datentyp
 - **v2.3:** Dreistufige Erkennung, Fallback-Prüfung, Bitmask-Analyse
 
-## 📄 License
+## � Contributors
+
+- [@RoccoAmmon](https://github.com/RoccoAmmon)
+- [Claude](https://claude.ai) (AI Assistant by Anthropic)
+
+## �📄 License
 
 MIT
 
