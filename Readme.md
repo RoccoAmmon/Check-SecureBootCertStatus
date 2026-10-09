@@ -45,7 +45,7 @@
 
 ```powershell
 # Repository klonen
-git clone https://github.com/RoccoAmmon/Check-SecureBootCertStatus.git
+git clone https://gitlab.com/RoccoAmmon/Check-SecureBootCertStatus.git
 cd Check-SecureBootCertStatus
 ```
 
@@ -80,7 +80,7 @@ cd Check-SecureBootCertStatus
 
 ## 👥 Contributors
 
-- [@RoccoAmmon](https://github.com/RoccoAmmon)
+- [@RoccoAmmon](https://gitlab.com/RoccoAmmon)
 - [Claude](https://claude.ai) (AI Assistant by Anthropic)
 
 ## 📄 License
